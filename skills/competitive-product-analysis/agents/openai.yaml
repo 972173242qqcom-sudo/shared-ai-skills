@@ -1,0 +1,7 @@
+interface:
+  display_name: "竞品分析"
+  short_description: "将竞品资料转化为比较框架、设计机会、产品策略与验证计划"
+  brand_color: "#17365D"
+  default_prompt: "使用 $competitive-product-analysis 分析这批竞品资料，并输出证据清晰、面向设计决策的竞品分析。"
+policy:
+  allow_implicit_invocation: true
