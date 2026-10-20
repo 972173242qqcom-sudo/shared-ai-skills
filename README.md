@@ -1,11 +1,12 @@
 # Shared AI Skills
 
-可安装、可复用的 AI 工作流。目前提供两个 Skills：
+可安装、可复用的 AI 工作流。目前提供三个 Skills：
 
 | Skill | 功能 | 使用说明 |
 | --- | --- | --- |
 | [collect-design-assets](skills/collect-design-assets/SKILL.md) | 设计素材搜索、筛选、下载、去重、整理和来源记录 | [中文 / English](skills/collect-design-assets/README.md) |
 | [competitive-product-analysis](skills/competitive-product-analysis/SKILL.md) | 跨品类竞品证据审计、比较框架、机会假设、产品策略和验证计划 | [中文 / English](skills/competitive-product-analysis/README.md) |
+| [define-product-requirements](skills/define-product-requirements/SKILL.md) | 把模糊需求转成可追溯、可验证的 Product Brief、范围边界和验证计划 | [中文 / English](skills/define-product-requirements/README.md) |
 
 ## 环境与依赖
 
@@ -33,6 +34,13 @@ https://github.com/972173242qqcom-sudo/shared-ai-skills/tree/main/skills/collect
 ```text
 $skill-installer 请从以下 GitHub 目录安装 competitive-product-analysis：
 https://github.com/972173242qqcom-sudo/shared-ai-skills/tree/main/skills/competitive-product-analysis
+```
+
+安装需求澄清与产品定义 Skill：
+
+```text
+$skill-installer 请从以下 GitHub 目录安装 define-product-requirements：
+https://github.com/972173242qqcom-sudo/shared-ai-skills/tree/main/skills/define-product-requirements
 ```
 
 安装后重启 Codex 或开启新会话，确认可以调用所选 Skill。如果当前客户端没有安装器，请使用手动方式。
@@ -67,6 +75,7 @@ Windows：下载 ZIP 并解压，将选中的 `skills/<skill-name>` 整个文件
 ├── README.md
 ├── agents/        # 若该 Skill 提供
 ├── references/    # 若该 Skill 提供
+├── assets/        # 若该 Skill 提供
 └── scripts/       # 若该 Skill 提供
 ```
 
@@ -92,6 +101,17 @@ $competitive-product-analysis 分析这批智能家电竞品资料。
 ```
 
 建议说明要支持的决策、目标用户与地区、分析对象类型、已有证据和输出格式。完整示例见 [竞品分析 Skill 使用说明](skills/competitive-product-analysis/README.md)。
+
+需求澄清与产品定义示例：
+
+```text
+$define-product-requirements 进入 clarify 模式。
+原始需求：做一个与 AI Agent 有关的桌面硬件。
+请建立 E/H/D/U 信息表，指出会改变项目方向的信息缺口，
+不要生成造型，不要编造用户研究、市场数据或工程结论。
+```
+
+它支持 `clarify`、`build` 和 `audit` 三种模式，可输出 Product Brief、Must / Should / Won't、成功标准、准备度评分和最小验证计划。完整示例见 [需求澄清与产品定义 Skill 使用说明](skills/define-product-requirements/README.md)。
 
 安装验证：在新会话中要求 Codex 读取已安装 Skill，概述其用途和交付内容，暂不执行外部操作。如果未识别，请检查目录层级和 `SKILL.md` 文件名。
 

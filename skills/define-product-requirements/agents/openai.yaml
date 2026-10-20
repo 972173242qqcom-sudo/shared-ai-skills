@@ -1,0 +1,7 @@
+interface:
+  display_name: "需求澄清与产品定义"
+  short_description: "把模糊产品需求转成可验证的 Product Brief"
+  brand_color: "#F04A24"
+  default_prompt: "使用 $define-product-requirements 澄清这个产品想法，并生成证据状态清楚、可以验证的 Product Brief。"
+policy:
+  allow_implicit_invocation: true
