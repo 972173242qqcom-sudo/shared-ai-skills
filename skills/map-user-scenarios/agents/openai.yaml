@@ -1,0 +1,7 @@
+interface:
+  display_name: "场景型用户研究"
+  short_description: "把真实观察转成行为用户、任务流与产品介入机会"
+  brand_color: "#F04A24"
+  default_prompt: "使用 $map-user-scenarios 分析这些真实观察，建立场景型用户模型、任务流和关键介入时刻。"
+policy:
+  allow_implicit_invocation: true

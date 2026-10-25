@@ -1,12 +1,13 @@
 # Shared AI Skills
 
-可安装、可复用的 AI 工作流。目前提供三个 Skills：
+可安装、可复用的 AI 工作流。目前提供四个 Skills：
 
 | Skill | 功能 | 使用说明 |
 | --- | --- | --- |
 | [collect-design-assets](skills/collect-design-assets/SKILL.md) | 设计素材搜索、筛选、下载、去重、整理和来源记录 | [中文 / English](skills/collect-design-assets/README.md) |
 | [competitive-product-analysis](skills/competitive-product-analysis/SKILL.md) | 跨品类竞品证据审计、比较框架、机会假设、产品策略和验证计划 | [中文 / English](skills/competitive-product-analysis/README.md) |
 | [define-product-requirements](skills/define-product-requirements/SKILL.md) | 把模糊需求转成可追溯、可验证的 Product Brief、范围边界和验证计划 | [中文 / English](skills/define-product-requirements/README.md) |
+| [map-user-scenarios](skills/map-user-scenarios/SKILL.md) | 把真实观察和访谈转成行为型用户、场景六格、任务流和介入机会 | [中文 / English](skills/map-user-scenarios/README.md) |
 
 ## 环境与依赖
 
@@ -41,6 +42,13 @@ https://github.com/972173242qqcom-sudo/shared-ai-skills/tree/main/skills/competi
 ```text
 $skill-installer 请从以下 GitHub 目录安装 define-product-requirements：
 https://github.com/972173242qqcom-sudo/shared-ai-skills/tree/main/skills/define-product-requirements
+```
+
+安装场景型用户研究 Skill：
+
+```text
+$skill-installer 请从以下 GitHub 目录安装 map-user-scenarios：
+https://github.com/972173242qqcom-sudo/shared-ai-skills/tree/main/skills/map-user-scenarios
 ```
 
 安装后重启 Codex 或开启新会话，确认可以调用所选 Skill。如果当前客户端没有安装器，请使用手动方式。
@@ -112,6 +120,17 @@ $define-product-requirements 进入 clarify 模式。
 ```
 
 它支持 `clarify`、`build` 和 `audit` 三种模式，可输出 Product Brief、Must / Should / Won't、成功标准、准备度评分和最小验证计划。完整示例见 [需求澄清与产品定义 Skill 使用说明](skills/define-product-requirements/README.md)。
+
+场景型用户研究示例：
+
+```text
+$map-user-scenarios 进入 map 模式。
+这是带来源 ID 的真实观察、访谈和使用日志：【粘贴资料】
+请建立行为型用户、场景六格、任务流、状态 × 注意力矩阵和下一步验证计划。
+所有关键判断标记 E / H / D / U，不要把一次观察推广成普遍结论。
+```
+
+它支持 `prepare`、`map` 和 `audit` 三种模式，可在资料不足时生成观察方案，也可以整理或反方审查已有用户场景。完整示例见 [场景型用户研究 Skill 使用说明](skills/map-user-scenarios/README.md)。
 
 安装验证：在新会话中要求 Codex 读取已安装 Skill，概述其用途和交付内容，暂不执行外部操作。如果未识别，请检查目录层级和 `SKILL.md` 文件名。
 
