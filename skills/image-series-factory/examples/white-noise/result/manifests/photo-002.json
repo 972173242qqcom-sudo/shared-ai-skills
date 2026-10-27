@@ -1,0 +1,22 @@
+{
+  "id": "photo-002",
+  "task": {
+    "id": "photo-002",
+    "topic": "窗边细雨",
+    "scene": "A quiet home window covered with fine distinct raindrops, soft fresh green garden blurred outside, one small plain cream ceramic cup on a warm pale wooden sill, diffuse gray morning daylight. No human, no brand.",
+    "must_show": [
+      "clear raindrops on glass",
+      "quiet warm indoor window sill"
+    ],
+    "composition": "close view of raindrops with cup in lower left, airy garden beyond"
+  },
+  "size": [
+    800,
+    1000
+  ],
+  "composition": "close view of raindrops with cup in lower left, airy garden beyond",
+  "style_id": "quiet-photo-cover",
+  "style_version": "1.0.0",
+  "generation_prompt": "Create ONE complete 800x1000 image; compose for this actual aspect ratio.\nStyle: Refined natural editorial photograph for a relaxation audio cover, realistic subject anatomy and texture, soft diffuse morning light, open shadows, restrained saturation, sage green, muted blue and warm neutral palette, quiet spacious environment, strong clear subject readable at thumbnail size, important content in central 75 percent, consistent calm mood. A generated illustrative scene, not documentary evidence.\nTopic: 窗边细雨\nScene: A quiet home window covered with fine distinct raindrops, soft fresh green garden blurred outside, one small plain cream ceramic cup on a warm pale wooden sill, diffuse gray morning daylight. No human, no brand.\nComposition: close view of raindrops with cup in lower left, airy garden beyond\nMust clearly show: clear raindrops on glass; quiet warm indoor window sill\nAvoid: HDR; neon saturation; fantasy glow; dramatic darkness; text, watermark, frame or collage; cluttered background\n",
+  "status": "planned"
+}

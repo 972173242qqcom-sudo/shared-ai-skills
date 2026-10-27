@@ -1,0 +1,102 @@
+{
+  "tool_version": "1.0.0",
+  "style": {
+    "schema_version": 1,
+    "version": "1.0.0",
+    "review_checks": [
+      "style",
+      "semantic",
+      "clean"
+    ],
+    "text_mode": "none",
+    "id": "quiet-photo-cover",
+    "name": "静谧声音摄影封面",
+    "category": "photo-cover",
+    "default_size": [
+      800,
+      1000
+    ],
+    "style_prompt": "Refined natural editorial photograph for a relaxation audio cover, realistic subject anatomy and texture, soft diffuse morning light, open shadows, restrained saturation, sage green, muted blue and warm neutral palette, quiet spacious environment, strong clear subject readable at thumbnail size, important content in central 75 percent, consistent calm mood. A generated illustrative scene, not documentary evidence.",
+    "avoid": [
+      "HDR",
+      "neon saturation",
+      "fantasy glow",
+      "dramatic darkness",
+      "text, watermark, frame or collage",
+      "cluttered background"
+    ],
+    "composition_presets": [
+      "environmental view with foreground anchor",
+      "medium close-up subject and gentle bokeh",
+      "wide environment with clear small subject"
+    ]
+  },
+  "items": [
+    {
+      "id": "photo-001",
+      "task": {
+        "id": "photo-001",
+        "topic": "林间溪流",
+        "scene": "A small clear stream flowing gently over smooth moss-covered stones in a quiet temperate woodland, a modest diagonal water ribbon across the lower middle, soft early morning light, fresh sage foliage in background, no people.",
+        "must_show": [
+          "recognizable flowing stream",
+          "mossy stones"
+        ],
+        "composition": "environmental view, stream leads from lower left toward upper right, spacious soft woodland"
+      },
+      "size": [
+        800,
+        1000
+      ],
+      "composition": "environmental view, stream leads from lower left toward upper right, spacious soft woodland",
+      "style_id": "quiet-photo-cover",
+      "style_version": "1.0.0",
+      "generation_prompt": "Create ONE complete 800x1000 image; compose for this actual aspect ratio.\nStyle: Refined natural editorial photograph for a relaxation audio cover, realistic subject anatomy and texture, soft diffuse morning light, open shadows, restrained saturation, sage green, muted blue and warm neutral palette, quiet spacious environment, strong clear subject readable at thumbnail size, important content in central 75 percent, consistent calm mood. A generated illustrative scene, not documentary evidence.\nTopic: 林间溪流\nScene: A small clear stream flowing gently over smooth moss-covered stones in a quiet temperate woodland, a modest diagonal water ribbon across the lower middle, soft early morning light, fresh sage foliage in background, no people.\nComposition: environmental view, stream leads from lower left toward upper right, spacious soft woodland\nMust clearly show: recognizable flowing stream; mossy stones\nAvoid: HDR; neon saturation; fantasy glow; dramatic darkness; text, watermark, frame or collage; cluttered background\n",
+      "status": "planned"
+    },
+    {
+      "id": "photo-002",
+      "task": {
+        "id": "photo-002",
+        "topic": "窗边细雨",
+        "scene": "A quiet home window covered with fine distinct raindrops, soft fresh green garden blurred outside, one small plain cream ceramic cup on a warm pale wooden sill, diffuse gray morning daylight. No human, no brand.",
+        "must_show": [
+          "clear raindrops on glass",
+          "quiet warm indoor window sill"
+        ],
+        "composition": "close view of raindrops with cup in lower left, airy garden beyond"
+      },
+      "size": [
+        800,
+        1000
+      ],
+      "composition": "close view of raindrops with cup in lower left, airy garden beyond",
+      "style_id": "quiet-photo-cover",
+      "style_version": "1.0.0",
+      "generation_prompt": "Create ONE complete 800x1000 image; compose for this actual aspect ratio.\nStyle: Refined natural editorial photograph for a relaxation audio cover, realistic subject anatomy and texture, soft diffuse morning light, open shadows, restrained saturation, sage green, muted blue and warm neutral palette, quiet spacious environment, strong clear subject readable at thumbnail size, important content in central 75 percent, consistent calm mood. A generated illustrative scene, not documentary evidence.\nTopic: 窗边细雨\nScene: A quiet home window covered with fine distinct raindrops, soft fresh green garden blurred outside, one small plain cream ceramic cup on a warm pale wooden sill, diffuse gray morning daylight. No human, no brand.\nComposition: close view of raindrops with cup in lower left, airy garden beyond\nMust clearly show: clear raindrops on glass; quiet warm indoor window sill\nAvoid: HDR; neon saturation; fantasy glow; dramatic darkness; text, watermark, frame or collage; cluttered background\n",
+      "status": "planned"
+    },
+    {
+      "id": "photo-003",
+      "task": {
+        "id": "photo-003",
+        "topic": "清晨画眉",
+        "scene": "One recognizable Chinese hwamei songbird perched on a slender woodland branch, warm brown feathers, clear white eye-ring extending into a long white eyebrow stripe behind eye, short yellowish beak slightly open as if singing, natural feet gripping branch, full body visible, subject about 40 percent of image height. Airy sage foliage bokeh and soft morning light.",
+        "must_show": [
+          "white eye-ring with long white eyebrow stripe",
+          "full bird body with natural feet"
+        ],
+        "composition": "medium close-up, bird slightly right of center with room toward its gaze, clean sage bokeh"
+      },
+      "size": [
+        800,
+        1000
+      ],
+      "composition": "medium close-up, bird slightly right of center with room toward its gaze, clean sage bokeh",
+      "style_id": "quiet-photo-cover",
+      "style_version": "1.0.0",
+      "generation_prompt": "Create ONE complete 800x1000 image; compose for this actual aspect ratio.\nStyle: Refined natural editorial photograph for a relaxation audio cover, realistic subject anatomy and texture, soft diffuse morning light, open shadows, restrained saturation, sage green, muted blue and warm neutral palette, quiet spacious environment, strong clear subject readable at thumbnail size, important content in central 75 percent, consistent calm mood. A generated illustrative scene, not documentary evidence.\nTopic: 清晨画眉\nScene: One recognizable Chinese hwamei songbird perched on a slender woodland branch, warm brown feathers, clear white eye-ring extending into a long white eyebrow stripe behind eye, short yellowish beak slightly open as if singing, natural feet gripping branch, full body visible, subject about 40 percent of image height. Airy sage foliage bokeh and soft morning light.\nComposition: medium close-up, bird slightly right of center with room toward its gaze, clean sage bokeh\nMust clearly show: white eye-ring with long white eyebrow stripe; full bird body with natural feet\nAvoid: HDR; neon saturation; fantasy glow; dramatic darkness; text, watermark, frame or collage; cluttered background\n",
+      "status": "planned"
+    }
+  ]
+}

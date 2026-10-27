@@ -1,0 +1,21 @@
+{
+  "reviewer": "assistant-visual",
+  "checks": {
+    "style": {
+      "pass": true,
+      "evidence": "米白底，珊瑚与钴蓝衣袖、金黄大碗、绿色勺；与另两张同属明快平涂和纸感。"
+    },
+    "semantic": {
+      "pass": true,
+      "evidence": "俯视两人合作做饭，一人搅拌另一人扶碗，主题明确。与任务中两人一起搅拌略有不同，但保留合作动作和主情节。"
+    },
+    "clean": {
+      "pass": true,
+      "evidence": "已查看脸、手臂、碗和背景；人物关系可读，无乱码、标志或多余肢体。"
+    }
+  },
+  "notes": "2026-10-27 查看本次生成全图与整批联系表；不是用户审美签核。",
+  "id": "ill-002",
+  "plan_sha256": "6caa2e4ac3fb017c3d124fb9a24167117144283a1df29c09503b975fb9bb7fb8",
+  "final_sha256": "49ab832bf605f8b50d953235110fdf461be5811843ccbb4aa28b61254dd32264"
+}

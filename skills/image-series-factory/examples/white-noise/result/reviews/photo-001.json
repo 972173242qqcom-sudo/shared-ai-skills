@@ -1,0 +1,21 @@
+{
+  "reviewer": "assistant-visual",
+  "checks": {
+    "style": {
+      "pass": true,
+      "evidence": "自然光、真实水石纹理，绿色林地、柔和远景，与雨窗和鸟图保持安静摄影感。溪面高光略强但未过曝成大片空白。"
+    },
+    "semantic": {
+      "pass": true,
+      "evidence": "溪流绕过苔藓石块，缩略图仍可识别流动水带；仅对场景描述验证，未核对真实音频。"
+    },
+    "clean": {
+      "pass": true,
+      "evidence": "已查看水面、树木和石块，无人物、文字、水印和明显拼接。"
+    }
+  },
+  "notes": "2026-10-27 查看本次生成全图与整批联系表；不是用户审美签核。",
+  "id": "photo-001",
+  "plan_sha256": "3345e2dc128a38ca78408ac77689f6e061a91dcb3f41779abec226de832b72cc",
+  "final_sha256": "5319fb3f04ffdec46ec80f3d55b35490552f1cd09dcfc27e97aba144d81c9a9a"
+}

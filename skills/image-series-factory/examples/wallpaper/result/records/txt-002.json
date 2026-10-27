@@ -1,0 +1,47 @@
+{
+  "id": "txt-002",
+  "plan_sha256": "d06a0c2fb7bf32052397222437264b27f21a7bd3bb8aae5a5c47992f666d7040",
+  "input_sha256": "52db58ce8a6c0735588bf97c77b0634a89fac54c7d31b1bd2244e8625a02561b",
+  "final_sha256": "459da849a61c7fa2f9bfe14cf7aae7c3dc8fc5eb8bf513475b2ed2055fcd0773",
+  "original": "originals/txt-001.png",
+  "source_size": [
+    941,
+    1672
+  ],
+  "size": [
+    1080,
+    1920
+  ],
+  "crop_fractions": [
+    0.0005313496280552332,
+    0.0
+  ],
+  "upscaled": true,
+  "typography": {
+    "copy": "留一点空白\n给好心情",
+    "layout": "center",
+    "font_sha256": "cfd20ab9514ad926699811cdfc92963478adc65b370965657b56dd1338686570",
+    "font_index": 0,
+    "font_size": 151,
+    "text_area_px": [
+      140,
+      518,
+      940,
+      1440
+    ],
+    "boxes": [
+      [
+        162,
+        806,
+        917,
+        935
+      ],
+      [
+        238,
+        1018,
+        842,
+        1152
+      ]
+    ]
+  }
+}

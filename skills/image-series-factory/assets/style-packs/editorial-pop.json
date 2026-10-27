@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "review_checks": [
+    "style",
+    "semantic",
+    "clean"
+  ],
+  "text_mode": "none",
+  "id": "editorial-pop",
+  "name": "明快生活编辑插画",
+  "category": "illustration",
+  "default_size": [
+    720,
+    1280
+  ],
+  "style_prompt": "Playful flat editorial illustration, rounded simplified adult figures, clean solid blocks of cobalt blue, coral red, golden yellow, leaf green and warm ivory, 3-6 visible colors per image, selective loose dark outline, exaggerated everyday object scale, dynamic but readable composition, one clear action, minimal environment, no photorealistic shading, very subtle paper texture. A coherent visual family across different scenes.",
+  "avoid": [
+    "photorealism",
+    "3D CGI",
+    "anime faces",
+    "busy background",
+    "text, logos, signatures or watermark",
+    "panels or collage"
+  ],
+  "composition_presets": [
+    "low angle diagonal motion",
+    "top-down interaction",
+    "quiet side profile with big negative space"
+  ]
+}

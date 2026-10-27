@@ -1,0 +1,18 @@
+{
+  "id": "ill-003",
+  "task": {
+    "id": "ill-003",
+    "topic": "安静阅读",
+    "scene": "One adult in a cobalt top sits on a coral chair reading one oversized open golden book, one small green plant beside the chair, gentle sideways C-shaped pose.",
+    "composition": "side profile, figure in lower two thirds, open ivory space above, book is the visual anchor"
+  },
+  "size": [
+    720,
+    1280
+  ],
+  "composition": "side profile, figure in lower two thirds, open ivory space above, book is the visual anchor",
+  "style_id": "editorial-pop",
+  "style_version": "1.0.0",
+  "generation_prompt": "Create ONE complete 720x1280 image; compose for this actual aspect ratio.\nStyle: Playful flat editorial illustration, rounded simplified adult figures, clean solid blocks of cobalt blue, coral red, golden yellow, leaf green and warm ivory, 3-6 visible colors per image, selective loose dark outline, exaggerated everyday object scale, dynamic but readable composition, one clear action, minimal environment, no photorealistic shading, very subtle paper texture. A coherent visual family across different scenes.\nTopic: 安静阅读\nScene: One adult in a cobalt top sits on a coral chair reading one oversized open golden book, one small green plant beside the chair, gentle sideways C-shaped pose.\nComposition: side profile, figure in lower two thirds, open ivory space above, book is the visual anchor\nAvoid: photorealism; 3D CGI; anime faces; busy background; text, logos, signatures or watermark; panels or collage\n",
+  "status": "planned"
+}

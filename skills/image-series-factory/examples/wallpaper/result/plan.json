@@ -1,0 +1,99 @@
+{
+  "tool_version": "1.0.0",
+  "style": {
+    "schema_version": 1,
+    "version": "1.0.0",
+    "review_checks": [
+      "style",
+      "semantic",
+      "clean",
+      "text"
+    ],
+    "text_mode": "overlay",
+    "id": "warm-paper-type",
+    "name": "暖纸短句壁纸",
+    "category": "wallpaper",
+    "default_size": [
+      1080,
+      1920
+    ],
+    "style_prompt": "Minimal warm handmade rice-paper abstract background, flat cream and pale apricot fields, one restrained translucent terracotta organic shape near the outer edge, delicate fine paper fibers, broad quiet center for readable dark typography. Warm ivory, apricot, ochre and terracotta only, simple and airy, no intricate scenery or decorations.",
+    "avoid": [
+      "cool blue and green",
+      "complex landscape",
+      "dark central shape",
+      "stamps",
+      "text or pseudo-calligraphy",
+      "watermark"
+    ],
+    "composition_presets": [
+      "large calm central space with one subtle shape at lower right"
+    ],
+    "text_color": "#693D2D",
+    "text_area": [
+      0.13,
+      0.27,
+      0.87,
+      0.75
+    ]
+  },
+  "items": [
+    {
+      "id": "txt-001",
+      "task": {
+        "id": "txt-001",
+        "topic": "允许慢一点",
+        "copy": "慢一点\n也在向前",
+        "scene": "Text-free minimal warm rice-paper background with a very pale apricot field and a single faint terracotta curved shape tucked into lower right edge. The central area is uniform warm cream.",
+        "copy_layout": "center"
+      },
+      "size": [
+        1080,
+        1920
+      ],
+      "composition": "large calm central space with one subtle shape at lower right",
+      "style_id": "warm-paper-type",
+      "style_version": "1.0.0",
+      "generation_prompt": "Create ONE complete 1080x1920 image; compose for this actual aspect ratio.\nStyle: Minimal warm handmade rice-paper abstract background, flat cream and pale apricot fields, one restrained translucent terracotta organic shape near the outer edge, delicate fine paper fibers, broad quiet center for readable dark typography. Warm ivory, apricot, ochre and terracotta only, simple and airy, no intricate scenery or decorations.\nTopic: 允许慢一点\nScene: Text-free minimal warm rice-paper background with a very pale apricot field and a single faint terracotta curved shape tucked into lower right edge. The central area is uniform warm cream.\nComposition: large calm central space with one subtle shape at lower right\nAvoid: cool blue and green; complex landscape; dark central shape; stamps; text or pseudo-calligraphy; watermark\nGenerate the BACKGROUND ONLY. No letters, calligraphy, pseudo-text, numbers or symbols. Keep the text area quiet; exact typography will be composited later.\n",
+      "status": "planned"
+    },
+    {
+      "id": "txt-002",
+      "task": {
+        "id": "txt-002",
+        "topic": "给自己留白",
+        "copy": "留一点空白\n给好心情",
+        "scene": "Same approved quiet warm-paper background, no text.",
+        "copy_layout": "center"
+      },
+      "size": [
+        1080,
+        1920
+      ],
+      "composition": "large calm central space with one subtle shape at lower right",
+      "style_id": "warm-paper-type",
+      "style_version": "1.0.0",
+      "generation_prompt": "Create ONE complete 1080x1920 image; compose for this actual aspect ratio.\nStyle: Minimal warm handmade rice-paper abstract background, flat cream and pale apricot fields, one restrained translucent terracotta organic shape near the outer edge, delicate fine paper fibers, broad quiet center for readable dark typography. Warm ivory, apricot, ochre and terracotta only, simple and airy, no intricate scenery or decorations.\nTopic: 给自己留白\nScene: Same approved quiet warm-paper background, no text.\nComposition: large calm central space with one subtle shape at lower right\nAvoid: cool blue and green; complex landscape; dark central shape; stamps; text or pseudo-calligraphy; watermark\nGenerate the BACKGROUND ONLY. No letters, calligraphy, pseudo-text, numbers or symbols. Keep the text area quiet; exact typography will be composited later.\n",
+      "status": "planned"
+    },
+    {
+      "id": "txt-003",
+      "task": {
+        "id": "txt-003",
+        "topic": "保持热爱",
+        "copy": "心有所爱\n日有所盼",
+        "scene": "Same approved quiet warm-paper background, no text.",
+        "copy_layout": "vertical"
+      },
+      "size": [
+        1080,
+        1920
+      ],
+      "composition": "large calm central space with one subtle shape at lower right",
+      "style_id": "warm-paper-type",
+      "style_version": "1.0.0",
+      "generation_prompt": "Create ONE complete 1080x1920 image; compose for this actual aspect ratio.\nStyle: Minimal warm handmade rice-paper abstract background, flat cream and pale apricot fields, one restrained translucent terracotta organic shape near the outer edge, delicate fine paper fibers, broad quiet center for readable dark typography. Warm ivory, apricot, ochre and terracotta only, simple and airy, no intricate scenery or decorations.\nTopic: 保持热爱\nScene: Same approved quiet warm-paper background, no text.\nComposition: large calm central space with one subtle shape at lower right\nAvoid: cool blue and green; complex landscape; dark central shape; stamps; text or pseudo-calligraphy; watermark\nGenerate the BACKGROUND ONLY. No letters, calligraphy, pseudo-text, numbers or symbols. Keep the text area quiet; exact typography will be composited later.\n",
+      "status": "planned"
+    }
+  ]
+}

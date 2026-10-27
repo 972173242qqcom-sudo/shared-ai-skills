@@ -1,0 +1,4 @@
+interface:
+  display_name: "系列化图片工厂"
+  short_description: "从参考图建立独立风格包，批量生成插画、文字壁纸与摄影封面并质检归档"
+  default_prompt: "使用 $image-series-factory，根据参考图建立新系列，先校准三张小样，再按主题表批量生成。"

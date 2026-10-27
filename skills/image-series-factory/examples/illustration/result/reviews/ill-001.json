@@ -1,0 +1,21 @@
+{
+  "reviewer": "assistant-visual",
+  "checks": {
+    "style": {
+      "pass": true,
+      "evidence": "钴蓝自行车与裤子、珊瑚上衣、金黄太阳、绿坡及米白留白；平涂、选择性深线与简化人物。"
+    },
+    "semantic": {
+      "pass": true,
+      "evidence": "低机位骑行，前景大车轮、斜向绿坡与舒展表情，使下班骑车主题可见。"
+    },
+    "clean": {
+      "pass": true,
+      "evidence": "已查看全图：一位成人，双手握把，车轮有意裁切；无可读文字、水印或多余肢体。"
+    }
+  },
+  "notes": "2026-10-27 查看本次生成全图与整批联系表；不是用户审美签核。",
+  "id": "ill-001",
+  "plan_sha256": "6caa2e4ac3fb017c3d124fb9a24167117144283a1df29c09503b975fb9bb7fb8",
+  "final_sha256": "8eedfc8eedc3aeefd221bd5ed55c3e79868a8e81d35148ad37cee89caf20ca58"
+}

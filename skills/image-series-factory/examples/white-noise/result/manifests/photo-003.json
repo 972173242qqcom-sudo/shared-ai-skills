@@ -1,0 +1,22 @@
+{
+  "id": "photo-003",
+  "task": {
+    "id": "photo-003",
+    "topic": "清晨画眉",
+    "scene": "One recognizable Chinese hwamei songbird perched on a slender woodland branch, warm brown feathers, clear white eye-ring extending into a long white eyebrow stripe behind eye, short yellowish beak slightly open as if singing, natural feet gripping branch, full body visible, subject about 40 percent of image height. Airy sage foliage bokeh and soft morning light.",
+    "must_show": [
+      "white eye-ring with long white eyebrow stripe",
+      "full bird body with natural feet"
+    ],
+    "composition": "medium close-up, bird slightly right of center with room toward its gaze, clean sage bokeh"
+  },
+  "size": [
+    800,
+    1000
+  ],
+  "composition": "medium close-up, bird slightly right of center with room toward its gaze, clean sage bokeh",
+  "style_id": "quiet-photo-cover",
+  "style_version": "1.0.0",
+  "generation_prompt": "Create ONE complete 800x1000 image; compose for this actual aspect ratio.\nStyle: Refined natural editorial photograph for a relaxation audio cover, realistic subject anatomy and texture, soft diffuse morning light, open shadows, restrained saturation, sage green, muted blue and warm neutral palette, quiet spacious environment, strong clear subject readable at thumbnail size, important content in central 75 percent, consistent calm mood. A generated illustrative scene, not documentary evidence.\nTopic: 清晨画眉\nScene: One recognizable Chinese hwamei songbird perched on a slender woodland branch, warm brown feathers, clear white eye-ring extending into a long white eyebrow stripe behind eye, short yellowish beak slightly open as if singing, natural feet gripping branch, full body visible, subject about 40 percent of image height. Airy sage foliage bokeh and soft morning light.\nComposition: medium close-up, bird slightly right of center with room toward its gaze, clean sage bokeh\nMust clearly show: white eye-ring with long white eyebrow stripe; full bird body with natural feet\nAvoid: HDR; neon saturation; fantasy glow; dramatic darkness; text, watermark, frame or collage; cluttered background\n",
+  "status": "planned"
+}

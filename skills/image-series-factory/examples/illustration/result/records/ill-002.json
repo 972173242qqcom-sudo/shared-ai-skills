@@ -1,0 +1,21 @@
+{
+  "id": "ill-002",
+  "plan_sha256": "6caa2e4ac3fb017c3d124fb9a24167117144283a1df29c09503b975fb9bb7fb8",
+  "input_sha256": "cd6bc6e76e7f80bda683f350985c68f5bbd4a1a3bcf4875bea7afc3e0fbc855e",
+  "final_sha256": "49ab832bf605f8b50d953235110fdf461be5811843ccbb4aa28b61254dd32264",
+  "original": "originals/ill-002.png",
+  "source_size": [
+    941,
+    1672
+  ],
+  "size": [
+    720,
+    1280
+  ],
+  "crop_fractions": [
+    0.0005313496280552332,
+    0.0
+  ],
+  "upscaled": false,
+  "typography": null
+}

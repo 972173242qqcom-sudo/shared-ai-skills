@@ -1,0 +1,31 @@
+{
+  "tool_version": "1.0.0",
+  "style_id": "warm-paper-type",
+  "style_version": "1.0.0",
+  "requested": 3,
+  "passed": 3,
+  "complete": true,
+  "items": [
+    {
+      "id": "txt-001",
+      "topic": "允许慢一点",
+      "status": "passed",
+      "technical_errors": [],
+      "issues": []
+    },
+    {
+      "id": "txt-002",
+      "topic": "给自己留白",
+      "status": "passed",
+      "technical_errors": [],
+      "issues": []
+    },
+    {
+      "id": "txt-003",
+      "topic": "保持热爱",
+      "status": "passed",
+      "technical_errors": [],
+      "issues": []
+    }
+  ]
+}

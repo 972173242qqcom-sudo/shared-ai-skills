@@ -1,0 +1,21 @@
+{
+  "id": "photo-002",
+  "plan_sha256": "3345e2dc128a38ca78408ac77689f6e061a91dcb3f41779abec226de832b72cc",
+  "input_sha256": "e695b8da9d4bd720b4d0c7a82c7a9bab979af46c1e9a66c79b79459ebff34065",
+  "final_sha256": "a77584dea424707ba0808ebf68988e1ea2ac30b4d2d6633eaffd522b66b75bc2",
+  "original": "originals/photo-002.png",
+  "source_size": [
+    1122,
+    1402
+  ],
+  "size": [
+    800,
+    1000
+  ],
+  "crop_fractions": [
+    0.0003565062388592999,
+    0.0
+  ],
+  "upscaled": false,
+  "typography": null
+}

@@ -1,0 +1,47 @@
+{
+  "id": "txt-001",
+  "plan_sha256": "d06a0c2fb7bf32052397222437264b27f21a7bd3bb8aae5a5c47992f666d7040",
+  "input_sha256": "52db58ce8a6c0735588bf97c77b0634a89fac54c7d31b1bd2244e8625a02561b",
+  "final_sha256": "f9a1da0449aa2550900f50932d859b43a2c35a463eb292f5895971b8f308633a",
+  "original": "originals/txt-001.png",
+  "source_size": [
+    941,
+    1672
+  ],
+  "size": [
+    1080,
+    1920
+  ],
+  "crop_fractions": [
+    0.0005313496280552332,
+    0.0
+  ],
+  "upscaled": true,
+  "typography": {
+    "copy": "慢一点\n也在向前",
+    "layout": "center",
+    "font_sha256": "cfd20ab9514ad926699811cdfc92963478adc65b370965657b56dd1338686570",
+    "font_index": 0,
+    "font_size": 151,
+    "text_area_px": [
+      140,
+      518,
+      940,
+      1440
+    ],
+    "boxes": [
+      [
+        314,
+        809,
+        767,
+        933
+      ],
+      [
+        238,
+        1016,
+        842,
+        1150
+      ]
+    ]
+  }
+}

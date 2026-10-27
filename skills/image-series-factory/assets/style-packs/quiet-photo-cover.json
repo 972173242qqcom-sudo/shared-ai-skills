@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "review_checks": [
+    "style",
+    "semantic",
+    "clean"
+  ],
+  "text_mode": "none",
+  "id": "quiet-photo-cover",
+  "name": "静谧声音摄影封面",
+  "category": "photo-cover",
+  "default_size": [
+    800,
+    1000
+  ],
+  "style_prompt": "Refined natural editorial photograph for a relaxation audio cover, realistic subject anatomy and texture, soft diffuse morning light, open shadows, restrained saturation, sage green, muted blue and warm neutral palette, quiet spacious environment, strong clear subject readable at thumbnail size, important content in central 75 percent, consistent calm mood. A generated illustrative scene, not documentary evidence.",
+  "avoid": [
+    "HDR",
+    "neon saturation",
+    "fantasy glow",
+    "dramatic darkness",
+    "text, watermark, frame or collage",
+    "cluttered background"
+  ],
+  "composition_presets": [
+    "environmental view with foreground anchor",
+    "medium close-up subject and gentle bokeh",
+    "wide environment with clear small subject"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "reviewer": "assistant-visual",
+  "checks": {
+    "style": {
+      "pass": true,
+      "evidence": "暖褐羽毛、柔和绿景虚化与自然晨光，和同组共享安静摄影语言。"
+    },
+    "semantic": {
+      "pass": true,
+      "evidence": "白眼圈与向后延伸的白眉纹可见，张喙站在树枝上；按画眉外观描述核对，不作生物学鉴定或音频匹配。"
+    },
+    "clean": {
+      "pass": true,
+      "evidence": "已查看眼、喙、双脚与尾羽，无额外鸟类、多余脚、文字或水印。"
+    }
+  },
+  "notes": "2026-10-27 查看本次生成全图与整批联系表；不是用户审美签核。",
+  "id": "photo-003",
+  "plan_sha256": "3345e2dc128a38ca78408ac77689f6e061a91dcb3f41779abec226de832b72cc",
+  "final_sha256": "86ae7ed89af2c8311a10e672381c278b0fb7615dac61ccfebcfbd279f33302e2"
+}

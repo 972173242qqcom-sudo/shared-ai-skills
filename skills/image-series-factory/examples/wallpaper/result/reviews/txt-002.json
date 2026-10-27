@@ -1,0 +1,25 @@
+{
+  "reviewer": "assistant-visual",
+  "checks": {
+    "style": {
+      "pass": true,
+      "evidence": "奶油暖纸背景、右下淡陶土弧形、深暖棕楷体，三张共享母版。"
+    },
+    "semantic": {
+      "pass": true,
+      "evidence": "文案为本任务情绪主题核心；横排与竖排分支均保持宽松留白。"
+    },
+    "clean": {
+      "pass": true,
+      "evidence": "已查看背景无伪字、无印章；文字未越界，没有遮挡关键内容。"
+    },
+    "text": {
+      "pass": true,
+      "evidence": "逐字查看终稿，原文为留一点空白 / 给好心情；按输入两行排版，字形完整可辨认。"
+    }
+  },
+  "notes": "2026-10-27 查看本次生成全图与整批联系表；不是用户审美签核。",
+  "id": "txt-002",
+  "plan_sha256": "d06a0c2fb7bf32052397222437264b27f21a7bd3bb8aae5a5c47992f666d7040",
+  "final_sha256": "459da849a61c7fa2f9bfe14cf7aae7c3dc8fc5eb8bf513475b2ed2055fcd0773"
+}

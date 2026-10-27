@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "review_checks": [
+    "style",
+    "semantic",
+    "clean",
+    "text"
+  ],
+  "text_mode": "overlay",
+  "id": "warm-paper-type",
+  "name": "暖纸短句壁纸",
+  "category": "wallpaper",
+  "default_size": [
+    1080,
+    1920
+  ],
+  "style_prompt": "Minimal warm handmade rice-paper abstract background, flat cream and pale apricot fields, one restrained translucent terracotta organic shape near the outer edge, delicate fine paper fibers, broad quiet center for readable dark typography. Warm ivory, apricot, ochre and terracotta only, simple and airy, no intricate scenery or decorations.",
+  "avoid": [
+    "cool blue and green",
+    "complex landscape",
+    "dark central shape",
+    "stamps",
+    "text or pseudo-calligraphy",
+    "watermark"
+  ],
+  "composition_presets": [
+    "large calm central space with one subtle shape at lower right"
+  ],
+  "text_color": "#693D2D",
+  "text_area": [
+    0.13,
+    0.27,
+    0.87,
+    0.75
+  ]
+}

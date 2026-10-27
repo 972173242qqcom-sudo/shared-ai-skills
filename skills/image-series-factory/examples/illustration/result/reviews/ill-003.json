@@ -1,0 +1,21 @@
+{
+  "reviewer": "assistant-visual",
+  "checks": {
+    "style": {
+      "pass": true,
+      "evidence": "蓝衣、珊瑚椅、金黄大书、绿色植物、米白空间；同一色彩和人物语言。"
+    },
+    "semantic": {
+      "pass": true,
+      "evidence": "侧面静态阅读；大书为视觉锚点，与骑行和俯视做饭的镜头不同。"
+    },
+    "clean": {
+      "pass": true,
+      "evidence": "已查看全图，书面无文字，人物姿态与手部关系可读，纸感未遮挡主体。"
+    }
+  },
+  "notes": "2026-10-27 查看本次生成全图与整批联系表；不是用户审美签核。",
+  "id": "ill-003",
+  "plan_sha256": "6caa2e4ac3fb017c3d124fb9a24167117144283a1df29c09503b975fb9bb7fb8",
+  "final_sha256": "bfd11fe6283ab976f790b0b85949cd42ba37b4365bd33797c6b1d3e0d32f2946"
+}

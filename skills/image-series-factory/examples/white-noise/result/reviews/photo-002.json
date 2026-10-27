@@ -1,0 +1,21 @@
+{
+  "reviewer": "assistant-visual",
+  "checks": {
+    "style": {
+      "pass": true,
+      "evidence": "柔和晨光、低刺激绿景与奶油杯、暖木窗台，保持自然生活摄影感。"
+    },
+    "semantic": {
+      "pass": true,
+      "evidence": "玻璃雨滴清晰，窗外模糊绿景与杯子建立安静室内场景；未核对真实音频。"
+    },
+    "clean": {
+      "pass": true,
+      "evidence": "杯沿杯柄结构可读，雨滴分布自然，无品牌、可读文字或水印。"
+    }
+  },
+  "notes": "2026-10-27 查看本次生成全图与整批联系表；不是用户审美签核。",
+  "id": "photo-002",
+  "plan_sha256": "3345e2dc128a38ca78408ac77689f6e061a91dcb3f41779abec226de832b72cc",
+  "final_sha256": "a77584dea424707ba0808ebf68988e1ea2ac30b4d2d6633eaffd522b66b75bc2"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ill-001",
+    "tool": "built-in image_gen.imagegen",
+    "generation_source_id": "ill-001",
+    "reused_approved_background": false,
+    "submitted_prompt": "Create ONE complete 720x1280 image; compose for this actual aspect ratio.\nStyle: Playful flat editorial illustration, rounded simplified adult figures, clean solid blocks of cobalt blue, coral red, golden yellow, leaf green and warm ivory, 3-6 visible colors per image, selective loose dark outline, exaggerated everyday object scale, dynamic but readable composition, one clear action, minimal environment, no photorealistic shading, very subtle paper texture. A coherent visual family across different scenes.\nTopic: 下班后骑车\nScene: One adult wearing a coral jacket rides a cobalt bicycle uphill beside one oversized golden sun disc, front wheel cropped close to the lower edge, loose green curved slope. Capture a single joyful pedaling action.\nComposition: low-angle diagonal, bicycle wheel in lower foreground, rider mid-frame, open ivory sky\nAvoid: photorealism; 3D CGI; anime faces; busy background; text, logos, signatures or watermark; panels or collage\n",
+    "tool_revised_prompt": "not returned by this tool",
+    "source_sha256": "df2db4f2f2cc9308c5ec990fb4bee98a690bc769773d775c84e4e5e2bcd1f5ce",
+    "attempt": 1,
+    "date": "2026-10-27",
+    "font_note": null
+  },
+  {
+    "id": "ill-002",
+    "tool": "built-in image_gen.imagegen",
+    "generation_source_id": "ill-002",
+    "reused_approved_background": false,
+    "submitted_prompt": "Create ONE complete 720x1280 image; compose for this actual aspect ratio.\nStyle: Playful flat editorial illustration, rounded simplified adult figures, clean solid blocks of cobalt blue, coral red, golden yellow, leaf green and warm ivory, 3-6 visible colors per image, selective loose dark outline, exaggerated everyday object scale, dynamic but readable composition, one clear action, minimal environment, no photorealistic shading, very subtle paper texture. A coherent visual family across different scenes.\nTopic: 周末一起做饭\nScene: Two adults stir one oversized golden mixing bowl together, one coral sleeve and one cobalt sleeve, one green spoon, friendly simplified faces seen from above. One clear cooperative stirring action.\nComposition: top-down radial layout, bowl dominates center, hands enter from opposite corners, warm ivory surround\nAvoid: photorealism; 3D CGI; anime faces; busy background; text, logos, signatures or watermark; panels or collage\n",
+    "tool_revised_prompt": "not returned by this tool",
+    "source_sha256": "cd6bc6e76e7f80bda683f350985c68f5bbd4a1a3bcf4875bea7afc3e0fbc855e",
+    "attempt": 1,
+    "date": "2026-10-27",
+    "font_note": null
+  },
+  {
+    "id": "ill-003",
+    "tool": "built-in image_gen.imagegen",
+    "generation_source_id": "ill-003",
+    "reused_approved_background": false,
+    "submitted_prompt": "Create ONE complete 720x1280 image; compose for this actual aspect ratio.\nStyle: Playful flat editorial illustration, rounded simplified adult figures, clean solid blocks of cobalt blue, coral red, golden yellow, leaf green and warm ivory, 3-6 visible colors per image, selective loose dark outline, exaggerated everyday object scale, dynamic but readable composition, one clear action, minimal environment, no photorealistic shading, very subtle paper texture. A coherent visual family across different scenes.\nTopic: 安静阅读\nScene: One adult in a cobalt top sits on a coral chair reading one oversized open golden book, one small green plant beside the chair, gentle sideways C-shaped pose.\nComposition: side profile, figure in lower two thirds, open ivory space above, book is the visual anchor\nAvoid: photorealism; 3D CGI; anime faces; busy background; text, logos, signatures or watermark; panels or collage\n",
+    "tool_revised_prompt": "not returned by this tool",
+    "source_sha256": "e6697c65a471325a4c66d9a9eb1ecb6d68723b421d1a69bd8ee46bf2640938de",
+    "attempt": 1,
+    "date": "2026-10-27",
+    "font_note": null
+  }
+]

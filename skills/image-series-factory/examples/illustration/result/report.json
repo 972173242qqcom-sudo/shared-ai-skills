@@ -1,0 +1,31 @@
+{
+  "tool_version": "1.0.0",
+  "style_id": "editorial-pop",
+  "style_version": "1.0.0",
+  "requested": 3,
+  "passed": 3,
+  "complete": true,
+  "items": [
+    {
+      "id": "ill-001",
+      "topic": "下班后骑车",
+      "status": "passed",
+      "technical_errors": [],
+      "issues": []
+    },
+    {
+      "id": "ill-002",
+      "topic": "周末一起做饭",
+      "status": "passed",
+      "technical_errors": [],
+      "issues": []
+    },
+    {
+      "id": "ill-003",
+      "topic": "安静阅读",
+      "status": "passed",
+      "technical_errors": [],
+      "issues": []
+    }
+  ]
+}

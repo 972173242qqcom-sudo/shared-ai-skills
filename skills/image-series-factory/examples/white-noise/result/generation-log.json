@@ -1,0 +1,38 @@
+[
+  {
+    "id": "photo-001",
+    "tool": "built-in image_gen.imagegen",
+    "generation_source_id": "photo-001",
+    "reused_approved_background": false,
+    "submitted_prompt": "Create ONE complete 800x1000 image; compose for this actual aspect ratio.\nStyle: Refined natural editorial photograph for a relaxation audio cover, realistic subject anatomy and texture, soft diffuse morning light, open shadows, restrained saturation, sage green, muted blue and warm neutral palette, quiet spacious environment, strong clear subject readable at thumbnail size, important content in central 75 percent, consistent calm mood. A generated illustrative scene, not documentary evidence.\nTopic: 林间溪流\nScene: A small clear stream flowing gently over smooth moss-covered stones in a quiet temperate woodland, a modest diagonal water ribbon across the lower middle, soft early morning light, fresh sage foliage in background, no people.\nComposition: environmental view, stream leads from lower left toward upper right, spacious soft woodland\nMust clearly show: recognizable flowing stream; mossy stones\nAvoid: HDR; neon saturation; fantasy glow; dramatic darkness; text, watermark, frame or collage; cluttered background\n",
+    "tool_revised_prompt": "not returned by this tool",
+    "source_sha256": "7c975690a2707e60b89cbb68a746f2dddbb4004be46134a65d5480ae956844d9",
+    "attempt": 1,
+    "date": "2026-10-27",
+    "font_note": null
+  },
+  {
+    "id": "photo-002",
+    "tool": "built-in image_gen.imagegen",
+    "generation_source_id": "photo-002",
+    "reused_approved_background": false,
+    "submitted_prompt": "Create ONE complete 800x1000 image; compose for this actual aspect ratio.\nStyle: Refined natural editorial photograph for a relaxation audio cover, realistic subject anatomy and texture, soft diffuse morning light, open shadows, restrained saturation, sage green, muted blue and warm neutral palette, quiet spacious environment, strong clear subject readable at thumbnail size, important content in central 75 percent, consistent calm mood. A generated illustrative scene, not documentary evidence.\nTopic: 窗边细雨\nScene: A quiet home window covered with fine distinct raindrops, soft fresh green garden blurred outside, one small plain cream ceramic cup on a warm pale wooden sill, diffuse gray morning daylight. No human, no brand.\nComposition: close view of raindrops with cup in lower left, airy garden beyond\nMust clearly show: clear raindrops on glass; quiet warm indoor window sill\nAvoid: HDR; neon saturation; fantasy glow; dramatic darkness; text, watermark, frame or collage; cluttered background\n",
+    "tool_revised_prompt": "not returned by this tool",
+    "source_sha256": "e695b8da9d4bd720b4d0c7a82c7a9bab979af46c1e9a66c79b79459ebff34065",
+    "attempt": 1,
+    "date": "2026-10-27",
+    "font_note": null
+  },
+  {
+    "id": "photo-003",
+    "tool": "built-in image_gen.imagegen",
+    "generation_source_id": "photo-003",
+    "reused_approved_background": false,
+    "submitted_prompt": "Create ONE complete 800x1000 image; compose for this actual aspect ratio.\nStyle: Refined natural editorial photograph for a relaxation audio cover, realistic subject anatomy and texture, soft diffuse morning light, open shadows, restrained saturation, sage green, muted blue and warm neutral palette, quiet spacious environment, strong clear subject readable at thumbnail size, important content in central 75 percent, consistent calm mood. A generated illustrative scene, not documentary evidence.\nTopic: 清晨画眉\nScene: One recognizable Chinese hwamei songbird perched on a slender woodland branch, warm brown feathers, clear white eye-ring extending into a long white eyebrow stripe behind eye, short yellowish beak slightly open as if singing, natural feet gripping branch, full body visible, subject about 40 percent of image height. Airy sage foliage bokeh and soft morning light.\nComposition: medium close-up, bird slightly right of center with room toward its gaze, clean sage bokeh\nMust clearly show: white eye-ring with long white eyebrow stripe; full bird body with natural feet\nAvoid: HDR; neon saturation; fantasy glow; dramatic darkness; text, watermark, frame or collage; cluttered background\n",
+    "tool_revised_prompt": "not returned by this tool",
+    "source_sha256": "018957fa2e85a04112ccaadb8032ee00d49a6a553ed457c2f2f26ade05fbe98b",
+    "attempt": 1,
+    "date": "2026-10-27",
+    "font_note": null
+  }
+]

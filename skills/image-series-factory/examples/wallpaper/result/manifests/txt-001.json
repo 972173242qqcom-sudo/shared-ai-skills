@@ -1,0 +1,19 @@
+{
+  "id": "txt-001",
+  "task": {
+    "id": "txt-001",
+    "topic": "允许慢一点",
+    "copy": "慢一点\n也在向前",
+    "scene": "Text-free minimal warm rice-paper background with a very pale apricot field and a single faint terracotta curved shape tucked into lower right edge. The central area is uniform warm cream.",
+    "copy_layout": "center"
+  },
+  "size": [
+    1080,
+    1920
+  ],
+  "composition": "large calm central space with one subtle shape at lower right",
+  "style_id": "warm-paper-type",
+  "style_version": "1.0.0",
+  "generation_prompt": "Create ONE complete 1080x1920 image; compose for this actual aspect ratio.\nStyle: Minimal warm handmade rice-paper abstract background, flat cream and pale apricot fields, one restrained translucent terracotta organic shape near the outer edge, delicate fine paper fibers, broad quiet center for readable dark typography. Warm ivory, apricot, ochre and terracotta only, simple and airy, no intricate scenery or decorations.\nTopic: 允许慢一点\nScene: Text-free minimal warm rice-paper background with a very pale apricot field and a single faint terracotta curved shape tucked into lower right edge. The central area is uniform warm cream.\nComposition: large calm central space with one subtle shape at lower right\nAvoid: cool blue and green; complex landscape; dark central shape; stamps; text or pseudo-calligraphy; watermark\nGenerate the BACKGROUND ONLY. No letters, calligraphy, pseudo-text, numbers or symbols. Keep the text area quiet; exact typography will be composited later.\n",
+  "status": "planned"
+}

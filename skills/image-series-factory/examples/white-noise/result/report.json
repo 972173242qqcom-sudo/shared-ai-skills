@@ -1,0 +1,31 @@
+{
+  "tool_version": "1.0.0",
+  "style_id": "quiet-photo-cover",
+  "style_version": "1.0.0",
+  "requested": 3,
+  "passed": 3,
+  "complete": true,
+  "items": [
+    {
+      "id": "photo-001",
+      "topic": "林间溪流",
+      "status": "passed",
+      "technical_errors": [],
+      "issues": []
+    },
+    {
+      "id": "photo-002",
+      "topic": "窗边细雨",
+      "status": "passed",
+      "technical_errors": [],
+      "issues": []
+    },
+    {
+      "id": "photo-003",
+      "topic": "清晨画眉",
+      "status": "passed",
+      "technical_errors": [],
+      "issues": []
+    }
+  ]
+}

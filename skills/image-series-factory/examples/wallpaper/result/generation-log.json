@@ -1,0 +1,38 @@
+[
+  {
+    "id": "txt-001",
+    "tool": "built-in image_gen.imagegen",
+    "generation_source_id": "txt-001",
+    "reused_approved_background": false,
+    "submitted_prompt": "Create ONE complete 1080x1920 image; compose for this actual aspect ratio.\nStyle: Minimal warm handmade rice-paper abstract background, flat cream and pale apricot fields, one restrained translucent terracotta organic shape near the outer edge, delicate fine paper fibers, broad quiet center for readable dark typography. Warm ivory, apricot, ochre and terracotta only, simple and airy, no intricate scenery or decorations.\nTopic: 允许慢一点\nScene: Text-free minimal warm rice-paper background with a very pale apricot field and a single faint terracotta curved shape tucked into lower right edge. The central area is uniform warm cream.\nComposition: large calm central space with one subtle shape at lower right\nAvoid: cool blue and green; complex landscape; dark central shape; stamps; text or pseudo-calligraphy; watermark\nGenerate the BACKGROUND ONLY. No letters, calligraphy, pseudo-text, numbers or symbols. Keep the text area quiet; exact typography will be composited later.\n",
+    "tool_revised_prompt": "not returned by this tool",
+    "source_sha256": "52db58ce8a6c0735588bf97c77b0634a89fac54c7d31b1bd2244e8625a02561b",
+    "attempt": 1,
+    "date": "2026-10-27",
+    "font_note": "macOS Kaiti SC, index 0; font software not distributed"
+  },
+  {
+    "id": "txt-002",
+    "tool": "built-in image_gen.imagegen",
+    "generation_source_id": "txt-001",
+    "reused_approved_background": true,
+    "submitted_prompt": "Create ONE complete 1080x1920 image; compose for this actual aspect ratio.\nStyle: Minimal warm handmade rice-paper abstract background, flat cream and pale apricot fields, one restrained translucent terracotta organic shape near the outer edge, delicate fine paper fibers, broad quiet center for readable dark typography. Warm ivory, apricot, ochre and terracotta only, simple and airy, no intricate scenery or decorations.\nTopic: 允许慢一点\nScene: Text-free minimal warm rice-paper background with a very pale apricot field and a single faint terracotta curved shape tucked into lower right edge. The central area is uniform warm cream.\nComposition: large calm central space with one subtle shape at lower right\nAvoid: cool blue and green; complex landscape; dark central shape; stamps; text or pseudo-calligraphy; watermark\nGenerate the BACKGROUND ONLY. No letters, calligraphy, pseudo-text, numbers or symbols. Keep the text area quiet; exact typography will be composited later.\n",
+    "tool_revised_prompt": "not returned by this tool",
+    "source_sha256": "52db58ce8a6c0735588bf97c77b0634a89fac54c7d31b1bd2244e8625a02561b",
+    "attempt": 1,
+    "date": "2026-10-27",
+    "font_note": "macOS Kaiti SC, index 0; font software not distributed"
+  },
+  {
+    "id": "txt-003",
+    "tool": "built-in image_gen.imagegen",
+    "generation_source_id": "txt-001",
+    "reused_approved_background": true,
+    "submitted_prompt": "Create ONE complete 1080x1920 image; compose for this actual aspect ratio.\nStyle: Minimal warm handmade rice-paper abstract background, flat cream and pale apricot fields, one restrained translucent terracotta organic shape near the outer edge, delicate fine paper fibers, broad quiet center for readable dark typography. Warm ivory, apricot, ochre and terracotta only, simple and airy, no intricate scenery or decorations.\nTopic: 允许慢一点\nScene: Text-free minimal warm rice-paper background with a very pale apricot field and a single faint terracotta curved shape tucked into lower right edge. The central area is uniform warm cream.\nComposition: large calm central space with one subtle shape at lower right\nAvoid: cool blue and green; complex landscape; dark central shape; stamps; text or pseudo-calligraphy; watermark\nGenerate the BACKGROUND ONLY. No letters, calligraphy, pseudo-text, numbers or symbols. Keep the text area quiet; exact typography will be composited later.\n",
+    "tool_revised_prompt": "not returned by this tool",
+    "source_sha256": "52db58ce8a6c0735588bf97c77b0634a89fac54c7d31b1bd2244e8625a02561b",
+    "attempt": 1,
+    "date": "2026-10-27",
+    "font_note": "macOS Kaiti SC, index 0; font software not distributed"
+  }
+]
