@@ -1,6 +1,6 @@
 # Shared AI Skills
 
-可安装、可复用的 AI 工作流。目前提供五个 Skills：
+可安装、可复用的 AI 工作流。目前提供六个 Skills：
 
 | Skill | 功能 | 使用说明 |
 | --- | --- | --- |
@@ -9,6 +9,7 @@
 | [competitive-product-analysis](skills/competitive-product-analysis/SKILL.md) | 跨品类竞品证据审计、比较框架、机会假设、产品策略和验证计划 | [中文 / English](skills/competitive-product-analysis/README.md) |
 | [define-product-requirements](skills/define-product-requirements/SKILL.md) | 把模糊需求转成可追溯、可验证的 Product Brief、范围边界和验证计划 | [中文 / English](skills/define-product-requirements/README.md) |
 | [map-user-scenarios](skills/map-user-scenarios/SKILL.md) | 把真实观察和访谈转成行为型用户、场景六格、任务流和介入机会 | [中文 / English](skills/map-user-scenarios/README.md) |
+| [generate-industrial-design-sketches](skills/generate-industrial-design-sketches/SKILL.md) | 把研究结论转成可比较的工业设计草图批次，并筛选值得验证的方向 | [中文 / English](skills/generate-industrial-design-sketches/README.md) |
 
 ## 环境与依赖
 
@@ -50,6 +51,13 @@ https://github.com/972173242qqcom-sudo/shared-ai-skills/tree/main/skills/define-
 ```text
 $skill-installer 请从以下 GitHub 目录安装 map-user-scenarios：
 https://github.com/972173242qqcom-sudo/shared-ai-skills/tree/main/skills/map-user-scenarios
+```
+
+安装工业设计草图 Skill：
+
+```text
+$skill-installer 请从以下 GitHub 目录安装 generate-industrial-design-sketches：
+https://github.com/972173242qqcom-sudo/shared-ai-skills/tree/main/skills/generate-industrial-design-sketches
 ```
 
 安装系列化图片 Skill：
@@ -139,6 +147,17 @@ $map-user-scenarios 进入 map 模式。
 ```
 
 它支持 `prepare`、`map` 和 `audit` 三种模式，可在资料不足时生成观察方案，也可以整理或反方审查已有用户场景。完整示例见 [场景型用户研究 Skill 使用说明](skills/map-user-scenarios/README.md)。
+
+工业设计草图示例：
+
+```text
+$generate-industrial-design-sketches 进入 explore 模式。
+这是竞品结论、用户场景和设计限制：【粘贴内容】
+请生成3张黑白工业设计草图板，分别探索体量、状态表达和核心操作。
+不要加入最终 CMF，不要生成广告效果图，不要复制竞品标志性外形。
+```
+
+它支持 `plan`、`explore`、`shortlist` 和 `iterate` 四种模式，可用于草图批次计划、图像生成、方向初筛和单变量迭代。完整示例见 [工业设计草图 Skill 使用说明](skills/generate-industrial-design-sketches/README.md)。
 
 安装验证：在新会话中要求 Codex 读取已安装 Skill，概述其用途和交付内容，暂不执行外部操作。如果未识别，请检查目录层级和 `SKILL.md` 文件名。
 

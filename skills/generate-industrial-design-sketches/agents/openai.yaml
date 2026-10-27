@@ -1,0 +1,7 @@
+interface:
+  display_name: "工业设计草图生成"
+  short_description: "把研究结论转成可比较、可筛选的工业设计草图批次"
+  brand_color: "#F04A24"
+  default_prompt: "使用 $generate-industrial-design-sketches，把这些研究结论转成一批黑白工业设计草图，并筛选出值得继续验证的方向。"
+policy:
+  allow_implicit_invocation: true
