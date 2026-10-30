@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transparent Video Workflow V1.1"
+  short_description: "透明视频与 Lottie 交付、GIF 关键色保护、完整动作重定时及逐帧验证"
+  default_prompt: "使用 $process-transparent-video 把素材制作成符合目标平台、时长和体积要求的透明 MOV、GIF 或 Lottie，并完成 Alpha、边缘和逐帧质检。"

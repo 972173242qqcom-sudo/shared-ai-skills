@@ -1,9 +1,10 @@
 # Shared AI Skills
 
-可安装、可复用的 AI 工作流。目前提供六个 Skills：
+可安装、可复用的 AI 工作流。目前提供七个 Skills：
 
 | Skill | 功能 | 使用说明 |
 | --- | --- | --- |
+| [process-transparent-video](skills/process-transparent-video/SKILL.md) | V1.1：透明 MOV/GIF/Lottie、完整动作重定时、关键色保护与逐帧验证 | [使用教程](skills/process-transparent-video/TUTORIAL.md) · [提示词](skills/process-transparent-video/PROMPTS.md) |
 | [image-series-factory](skills/image-series-factory/SKILL.md) | 参考图分析、独立风格包、批量插画/文字壁纸/摄影封面、准确排字与质检归档 | [中文教程与三例](skills/image-series-factory/README.md) |
 | [collect-design-assets](skills/collect-design-assets/SKILL.md) | 设计素材搜索、筛选、下载、去重、整理和来源记录 | [中文 / English](skills/collect-design-assets/README.md) |
 | [competitive-product-analysis](skills/competitive-product-analysis/SKILL.md) | 跨品类竞品证据审计、比较框架、机会假设、产品策略和验证计划 | [中文 / English](skills/competitive-product-analysis/README.md) |
@@ -18,7 +19,7 @@
 - 各 Skill 的依赖见自身说明；`image-series-factory` 的离线图片处理需要 Python 3.10+ 和 Pillow，文字壁纸另需可用字体，实际生成需要宿主提供图像工具。其余工作流没有统一的 Python 包、付费 API Key 或指定素材网站依赖。
 - 图片联系表、感知去重可按任务使用 Python/Pillow 等工具；视频抽帧、元数据检查可按任务使用 FFmpeg/FFprobe。这些不是阅读或安装 Skill 的前置条件。
 - 受限来源可能需要用户自行登录、订阅或取得授权。
-- Skill 本身没有操作系统专属后端；实际可执行范围取决于宿主工具和权限。
+- `process-transparent-video` 的自动抠像与 HEVC Alpha 后端使用 macOS；PNG 序列 Lottie 打包与 GIF 时间线工具可跨平台运行。其他 Skill 的可执行范围取决于宿主工具和权限。
 - `competitive-product-analysis` 附带的 `scripts/audit_package.py` 只使用 Python 标准库；运行该脚本需要 Python 3。
 
 ## 安装到 Codex
@@ -178,3 +179,15 @@ $generate-industrial-design-sketches 进入 explore 模式。
 ## 授权与使用边界
 
 公开分享这些工作流不代表第三方素材、数据或来源内容可以自由复用。每项素材和证据仍须按原作者或来源网站的许可使用；授权不明时标为待复核或仅作参考。工作流不绕过登录、付费或访问权限限制。
+
+## 透明视频与 Lottie
+
+安装目录：[process-transparent-video](skills/process-transparent-video)。
+
+```text
+$skill-installer 请从以下 GitHub 目录安装 process-transparent-video：
+https://github.com/972173242qqcom-sudo/shared-ai-skills/tree/main/skills/process-transparent-video
+```
+
+提供透明 MOV/GIF 与位图序列型 Lottie JSON；PNG 打包不会自动转为矢量。目标播放器需单独验收。
+[中英教程](skills/process-transparent-video/TUTORIAL.md) · [可复制提示词](skills/process-transparent-video/PROMPTS.md) · [验证范围](skills/process-transparent-video/VALIDATION.md)
